@@ -1,0 +1,13 @@
+let fruit=["apple","orange","grape",22];
+console.log(fruit);
+console.log(fruit[0]);
+console.log(fruit[1]);
+console.log("length of array",fruit.length);
+fruit.push("peach");
+console.log(fruit);
+fruit.unshift("Mango");
+console.log(fruit);
+fruit.pop();
+console.log(fruit);
+fruit.shift();
+console.log(fruit);
